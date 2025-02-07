@@ -1,0 +1,89 @@
+{
+  "common": {
+    "greeting": "Salut, {{username}}",
+    "language": "Limbă",
+    "theme": "Temă",
+    "logout": "Deconectare",
+    "login": "Autentificare",
+    "register": "Înregistrare",
+    "home": "Acasă",
+    "profile": "Profil",
+    "users": "Utilizatori",
+    "loading": "Încărcare...",
+    "errorLoading": "Eroare la încărcare detalii!",
+    "createButton": "Crează",
+    "updateButton": "Actualizează",
+    "editButton": "Modifică",
+    "cancelButton": "Anulează",
+    "deleteButton": "Șterge",
+    "backButton": "Înapoi",
+    "signInButton": "Conectează-te",
+    "signUpButton": "Creează un cont nou"
+  },
+  "language": {
+    "en": "Engleză",
+    "hu": "Maghiară",
+    "ro": "Română"
+  },
+  "theme": {
+    "light": "Luminoasă",
+    "dark": "Întunecată",
+    "color": "Colorată"
+  },
+  "auth": {
+    "signIn": "Conectează-te la contul tău",
+    "signUp": "Creează un cont nou",
+    "username": "Nume utilizator",
+    "password": "Parolă",
+    "confirmPassword": "Confirmați parola",
+    "email": "Email",
+    "noAccount": "Nu ai cont?",
+    "haveAccount": "Ai deja un cont?",
+    "registrationSuccessful": "Înregistrare reușită!"
+  },
+  "events": {
+    "title": "Toate evenimentele",
+    "details": "Detalii eveniment",
+    "create": "Eveniment nou",
+    "edit": "Modifică eveniment",
+    "name": "Nume",
+    "location": "Locatie",
+    "startDate": "Data de început",
+    "endDate": "Data de încheiere",
+    "participants": "Participanți",
+    "addParticipant": "Participant nou",
+    "addEvent": "Adăugă eveniment nou",
+    "emptyListMessage": "Nu există evenimente!"
+  },
+  "participants": {
+    "title": "Participanți la '{{eventName}}'",
+    "details": "Detalii participant",
+    "create": "Adăugă participant nou",
+    "edit": "Modifică participant",
+    "name": "Nume",
+    "email": "Email",
+    "phone": "Telefon",
+    "addParticipant": "Participant nou",
+    "emptyListMessage": "Nu există participanți!"
+  },
+  "user": {
+    "title": "Toți utilizatorii",
+    "details": "Detalii utilizator",
+    "name": "Nume",
+    "email": "Email",
+    "theme": "Temă",
+    "language": "Limbă",
+    "role": "Rol",
+    "emptyListMessage": "Nu există utilizatori"
+  },
+  "validation": {
+    "required": "{{field}} este obligatoriu",
+    "minLength": "{{field}} trebuie să aibă cel puțin {{min}} caractere",
+    "invalidEmail": "Adresă de email invalidă",
+    "invalidPhoneNumber": "Număr de telefon invalid"
+  },
+  "error": {
+    "adminDelete": "Conturile de administrator nu pot fi șterse!",
+    "deleteUser": "Ștergerea utilizatorului a eșuat. Te rog să încerci din nou."
+  }
+}

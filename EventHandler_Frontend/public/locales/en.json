@@ -1,0 +1,89 @@
+{
+  "common": {
+    "greeting": "Hello, {{username}}",
+    "language": "Language",
+    "theme": "Theme",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "home": "Home",
+    "profile": "Profile",
+    "users": "Users",
+    "loading": "Loading...",
+    "errorLoading": "Error loading details!",
+    "createButton": "Create",
+    "updateButton": "Update",
+    "editButton": "Edit",
+    "cancelButton": "Cancel",
+    "deleteButton": "Delete",
+    "backButton": "Back",
+    "signInButton": "Sign In",
+    "signUpButton": "Sign Up"
+  },
+  "language": {
+    "en": "English",
+    "hu": "Hungarian",
+    "ro": "Romanian"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "color": "Colorful"
+  },
+  "auth": {
+    "signIn": "Sign In To Your Account",
+    "signUp": "Create Your Account",
+    "username": "Username",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "email": "Email",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "registrationSuccessful": "Registration successful!"
+  },
+  "events": {
+    "title": "All Events",
+    "details": "Event Details",
+    "create": "Add Event",
+    "edit": "Edit Event",
+    "name": "Name",
+    "location": "Location",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "participants": "Participants",
+    "addParticipant": "New Participant",
+    "addEvent": "Add New Event",
+    "emptyListMessage": "No events found!"
+  },
+  "participants": {
+    "title": "Participants for '{{eventName}}'",
+    "details": "Participant Details",
+    "create": "Add New Participant",
+    "edit": "Edit Participant",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "addParticipant": "New Participant",
+    "emptyListMessage": "No participants found!"
+  },
+  "user": {
+    "title": "All Users",
+    "details": "User Details",
+    "name": "Name",
+    "email": "Email",
+    "theme": "Theme",
+    "language": "Language",
+    "role": "Role",
+    "emptyListMessage": "No users found!"
+  },
+  "validation": {
+    "required": "{{field}} is required",
+    "minLength": "{{field}} must be at least {{min}} characters",
+    "invalidEmail": "Invalid email address",
+    "invalidPhoneNumber": "Invalid phone number"
+  },
+  "error": {
+    "adminDelete": "Admin accounts cannot be deleted!",
+    "deleteUser": "Failed to delete user. Please try again."
+  }
+}

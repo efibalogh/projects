@@ -1,0 +1,89 @@
+{
+  "common": {
+    "greeting": "Szia, {{username}}",
+    "language": "Nyelv",
+    "theme": "Téma",
+    "logout": "Kijelentkezés",
+    "login": "Bejelentkezés",
+    "register": "Regisztráció",
+    "home": "Kezdőlap",
+    "profile": "Profil",
+    "users": "Felhasználók",
+    "loading": "Betöltés...",
+    "errorLoading": "Hiba történt a részletek betöltésekor!",
+    "createButton": "Hozzáadás",
+    "updateButton": "Frissítés",
+    "editButton": "Szerkesztés",
+    "cancelButton": "Mégsem",
+    "deleteButton": "Törlés",
+    "backButton": "Vissza",
+    "signInButton": "Bejelentkezés",
+    "signUpButton": "Regisztráció"
+  },
+  "language": {
+    "en": "Angol",
+    "hu": "Magyar",
+    "ro": "Román"
+  },
+  "theme": {
+    "light": "Világos",
+    "dark": "Sötét",
+    "color": "Színes"
+  },
+  "auth": {
+    "signIn": "Bejelentkezés a fiókodba",
+    "signUp": "Fiók létrehozása",
+    "username": "Felhasználónév",
+    "password": "Jelszó",
+    "confirmPassword": "Jelszó megerősítése",
+    "email": "Email",
+    "noAccount": "Nincs még fiókod?",
+    "haveAccount": "Már van fiókod?",
+    "registrationSuccessful": "Sikeres regisztráció!"
+  },
+  "events": {
+    "title": "Összes esemény",
+    "details": "Esemény részletei",
+    "create": "Új esemény",
+    "edit": "Esemény szerkesztése",
+    "name": "Név",
+    "location": "Helyszín",
+    "startDate": "Kezdés dátuma",
+    "endDate": "Befejezés dátuma",
+    "participants": "Résztvevők",
+    "addParticipant": "Új résztvevő",
+    "addEvent": "Új esemény hozzáadása",
+    "emptyListMessage": "Nincsenek események!"
+  },
+  "participants": {
+    "title": "'{{eventName}}' résztvevői",
+    "details": "Résztvevő adatai",
+    "create": "Új résztvevő hozzáadása",
+    "edit": "Résztvevő szerkesztése",
+    "name": "Név",
+    "email": "Email",
+    "phone": "Telefonszám",
+    "addParticipant": "Új résztvevő",
+    "emptyListMessage": "Nincsenek résztvevők!"
+  },
+  "user": {
+    "title": "Összes felhasználó",
+    "details": "Felhasználó adatai",
+    "name": "Név",
+    "email": "Email",
+    "theme": "Téma",
+    "language": "Nyelv",
+    "role": "Szerep",
+    "emptyListMessage": "Nincsenek felhasználók!"
+  },
+  "validation": {
+    "required": "A(z) {{field}} kötelező",
+    "minLength": "A(z) {{field}} legalább {{min}} karakter hosszú legyen",
+    "invalidEmail": "Érvénytelen email cím",
+    "invalidPhoneNumber": "Érvénytelen telefonszám"
+  },
+  "error": {
+    "adminDelete": "Admin fiókok nem törölhetőek!",
+    "deleteUser": "A felhasználó törlése sikertelen volt. Kérlek próbáld újra."
+  }
+}

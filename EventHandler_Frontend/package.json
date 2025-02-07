@@ -1,0 +1,53 @@
+{
+  "name": "beim2210",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.2.0",
+    "@mui/material": "^6.2.0",
+    "@tanstack/react-query": "^5.62.8",
+    "axios": "^1.7.8",
+    "i18next": "^24.2.2",
+    "i18next-http-backend": "^3.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.1",
+    "react-i18next": "^15.4.0",
+    "react-router-dom": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/react-i18next": "^7.8.3",
+    "@typescript-eslint/eslint-plugin": "7.3.1",
+    "@typescript-eslint/parser": "7.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "8.57.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "18.0.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-config-react": "1.1.7",
+    "eslint-import-resolver-typescript": "3.6.3",
+    "eslint-plugin-import": "2.30.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-react": "7.37.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.13.0",
+    "prettier": "3.3.3",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.2",
+    "vite": "^6.0.0",
+    "vite-plugin-pwa": "^0.21.1"
+  }
+}
